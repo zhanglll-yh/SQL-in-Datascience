@@ -23,7 +23,9 @@ A **relational dataset** is data organized into **tables** (like Excel sheets), 
 
 These tables are **relational** because `product_id` links them.
 
-💡 SQL is designed to work with relational datasets.
+💡 SQL was specifically built to manage and query relational data using joins.
+
+Syntax like INNER JOIN, LEFT JOIN, etc., are optimized and easy to use.
 
 ---
 
@@ -91,5 +93,7 @@ You can try free SQL environments like:
 * [Mode Analytics SQL tutorials](https://mode.com/sql-tutorial/)
 * [DB Fiddle](https://www.db-fiddle.com/)
 * Kaggle Datasets + `sqlite3` or Pandas
+
+## ✅ ** Question 4:
 
 
