@@ -154,6 +154,7 @@ Databases are optimized with indexes and query engines.
 '''
 SELECT * FROM sales WHERE amount > 1000 AND region = 'Asia';
 '''
+
 2. Grouping and Aggregation
 SQL handles GROUP BY operations extremely well.
 
@@ -164,6 +165,7 @@ Aggregate functions like SUM(), AVG(), COUNT(), etc., are fast and readable.
 '''
 SELECT region, AVG(sales) FROM transactions GROUP BY region;
 '''
+
 3. Sorting and Limiting Results
 ORDER BY and LIMIT are fast and directly supported.
 
@@ -174,6 +176,7 @@ Efficient even on large datasets, especially with indexes.
 '''
 SELECT * FROM employees ORDER BY salary DESC LIMIT 10;
 '''
+
 4. Subqueries and CTEs (Common Table Expressions)
 SQL allows writing modular, readable queries using WITH clauses or subqueries.
 
@@ -189,6 +192,7 @@ WITH top_customers AS (
 )
 SELECT * FROM top_customers WHERE total > 10000;
 '''
+
 5. Data Integrity and Constraints
 SQL databases support constraints (e.g., NOT NULL, UNIQUE, FOREIGN KEY) to enforce data rules automatically.
 
