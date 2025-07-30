@@ -1,6 +1,6 @@
 # SQL get started Q&As
 
-Great set of questions! Let's take them one by one:
+
 
 ---
 
